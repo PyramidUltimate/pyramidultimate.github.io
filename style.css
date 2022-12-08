@@ -46,6 +46,19 @@ div {
     display: block;
 }
 
+center {
+    display: block;
+    text-align: -webkit-center;
+}
+
+#main {
+    width: 960px;
+    margin: 48px;
+    z-index: 2;
+    font-size: 42px;
+    font-family: ArcticPatrol;
+}
+
 #logo {
     background-image: url(logo.png);
     background-position: bottom center;
@@ -85,3 +98,8 @@ div {
         transform: translate(0px, 0px);
     }
 }
+
+@font-face {
+    font-family: ArcticPatrol;
+    src: url(ArcticPatrol.ttf);
+  }
