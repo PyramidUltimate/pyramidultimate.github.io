@@ -1,0 +1,87 @@
+body {
+    background-color: #389DE9;
+    display: block;
+    margin: 8px;
+}
+
+#spike {
+    background-image: url(spike.png);
+    background-position: bottom center;
+    background-repeat: repeat-x;
+    width: calc(100% + 128px);
+    overflow: hidden;
+    height: 100px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    z-index: 100;
+    pointer-events: none;
+    opacity: 1;
+    animation-name: scroll;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#spike2 {
+    background-image: url(spike2.png);
+    background-position: bottom center;
+    background-repeat: repeat-x;
+    width: calc(100% + 128px);
+    overflow: hidden;
+    height: 100px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    pointer-events: none;
+    opacity: 1;
+    animation-name: scroll;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+div {
+    display: block;
+}
+
+#logo {
+    background-image: url(logo.png);
+    background-position: bottom center;
+    width: 170px;
+    height: 180px;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    z-index: 139;
+    pointer-events: none;
+    opacity: 1;
+    margin-right: 30px;
+    animation-name: hoverzoom;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    100% {
+        transform: translate(-112px, 0px);
+    }
+}
+
+@keyframes hoverzoom {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    50% {
+        transform: translate(0px, -12px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
