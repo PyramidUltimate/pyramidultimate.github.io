@@ -56,7 +56,7 @@ center {
     margin: 48px;
     z-index: 2;
     font-size: 42px;
-    font-family: Multicolore;
+    font-family: Bungee;
 }
 
 #logo {
@@ -102,4 +102,19 @@ center {
 @font-face {
     font-family: Multicolore;
     src: url(Multicolore.otf);
+  }
+
+  @font-face {
+    font-family: Bungee;
+    src: url(Bungee.otf);
+  }
+
+  @font-face {
+    font-family: FukuCatch;
+    src: url(FukuCatch.otf);
+  }
+
+  @font-face {
+    font-family: Stray;
+    src: url(Stray.otf);
   }
