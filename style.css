@@ -60,7 +60,7 @@ center {
 }
 
 #desctext {
-    font-family: Audiowide;
+    font-family: 'Aldrich';
     font-size: 28px;
 }
 
@@ -128,3 +128,5 @@ center {
     font-family: Audiowide;
     src: url(Audiowide.ttf);
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
