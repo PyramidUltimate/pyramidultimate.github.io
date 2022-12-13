@@ -59,6 +59,11 @@ center {
     font-family: Bungee;
 }
 
+#desctext {
+    font-family: Audiowide;
+    font-size: 28px;
+}
+
 #logo {
     background-image: url(logo.png);
     background-position: bottom center;
@@ -102,19 +107,24 @@ center {
 @font-face {
     font-family: Multicolore;
     src: url(Multicolore.otf);
-  }
+}
 
-  @font-face {
+@font-face {
     font-family: Bungee;
     src: url(Bungee.otf);
-  }
+}
 
-  @font-face {
+@font-face {
     font-family: FukuCatch;
     src: url(FukuCatch.otf);
-  }
+}
 
-  @font-face {
+@font-face {
     font-family: Stray;
     src: url(Stray.otf);
-  }
+}
+
+@font-face {
+    font-family: Audiowide;
+    src: url(Audiowide.ttf);
+}
